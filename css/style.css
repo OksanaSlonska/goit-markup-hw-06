@@ -474,7 +474,7 @@ address {
 
 @media screen and (min-width: 1158px) {
   .hero {
-    max-width: 1140px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
@@ -508,14 +508,17 @@ address {
 
 /* feature-mobil */
 
+.feature {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .feature-list {
   display: flex;
   flex-direction: column;
   gap: 72px;
   width: 100%;
   height: auto;
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 
 .feature-subtitle {
@@ -714,6 +717,11 @@ address {
 
 /* portfolio-mobil */
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -723,7 +731,6 @@ address {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .portfolio-list {
@@ -732,8 +739,6 @@ address {
   gap: 48px;
   width: 100%;
   height: auto;
-
-  padding-bottom: 96px;
 }
 
 .portfolio-item {
@@ -1037,6 +1042,7 @@ address {
 @media screen and (min-width: 1158px) {
   .one {
     margin-right: 120px;
+    margin-bottom: unset;
   }
   .three-footer {
     margin-left: 80px;
@@ -1051,7 +1057,7 @@ address {
   }
 
   .footer-item {
-    padding-left: 0;
+    padding-left: 15px;
   }
 }
 
